@@ -46,20 +46,7 @@ public class StackDemo {
 	 */
 	public static void revLinkedList(LinkedList<Integer> input)
 	{
-		Stack<Integer> stk = new Stack<Integer>();
-		for (Integer item: input)
-		{
-			stk.push(item);
-		}
-		
-		LinkedList<Integer> ret = new LinkedList<Integer>();
-		
-		for (Integer item: stk)
-		{
-			ret.add(item);
-		}
-		
-		input = ret;		
+		//
 	}
 	
 	/*
