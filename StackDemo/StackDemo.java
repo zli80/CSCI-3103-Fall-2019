@@ -41,13 +41,6 @@ public class StackDemo {
 	}
 	
 	
-	/*
-	 * Sample code for reverse linked List
-	 */
-	public static void revLinkedList(LinkedList<Integer> input)
-	{
-		//
-	}
 	
 	/*
 	 * Sample code for check balanced parentheses 
@@ -76,7 +69,7 @@ public class StackDemo {
 				   continue;
 			   }
 			   
-			   stk.push(ch);				   
+			   return false;				   
 		   }		   
 	   }
 	   return stk.isEmpty();
